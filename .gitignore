@@ -1,0 +1,41 @@
+# Logs and temporary files
+*.log
+tmp*
+temp*
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# Build artifacts
+build/
+dist/
+web/
+
+# Dependency directories
+.dart_tool/
+.packages
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Flutter specific
+android/
+ios/
+
+# Generated files
+**/generated_plugin_registrant.dart
+
+# Firebase files (if applicable)
+firebase_options.dart
+
+# Secrets
+*.env
+
+# Automatically generated files
+lib/**/*.g.dart
+lib/**/*.freezed.dart
